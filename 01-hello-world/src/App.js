@@ -11,7 +11,7 @@ class Hello extends Component {
     return (
       <div>
         <h1>Hello World!</h1>
-        <p>test</p>
+        <h3>It is time for tea.</h3>
       </div>
     )
   }
