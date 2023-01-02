@@ -4,7 +4,12 @@ import Hello from './App.js';
 
 var person = {
   personName: "Nick",
-  personAge: 24
+  personAge: 24,
+  favorites: [
+    "capybaras",
+    "Tigers",
+    "Dinosaurs count!"
+  ]
 }
 
 ReactDOM.render(
