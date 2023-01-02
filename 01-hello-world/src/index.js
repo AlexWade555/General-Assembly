@@ -6,7 +6,7 @@ var person = {
   personName: "Nick",
   personAge: 24,
   favorites: [
-    "capybaras",
+    "Capybaras",
     "Tigers",
     "Dinosaurs count!"
   ]
@@ -15,6 +15,8 @@ var person = {
 ReactDOM.render(
   <Hello
   name={person.personName}
-  age={person.personAge} />,
+  age={person.personAge}
+  animals={person.favorites}
+    />,
   document.getElementById('root')
 )
