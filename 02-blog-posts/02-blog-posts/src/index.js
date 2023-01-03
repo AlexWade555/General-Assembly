@@ -11,6 +11,11 @@ var examplePost = {
 }
 
 ReactDOM.render(
-  <Post />,
+  <Post
+  title={examplePost.title}
+  author={examplePost.author}
+  body={examplePost.body}
+  comments={examplePost.comments}
+  />,
   document.getElementById('root')
 )
